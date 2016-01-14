@@ -1,7 +1,12 @@
 <?php
 
 function dephendency($class) {
-    require_once(__DIR__.'/../'.$class.'.php');
+    if (is_file(__DIR__.'/../'.$class.'.php')) {
+        require_once(__DIR__.'/../'.$class.'.php');
+    }
+    else {
+        require_once(__DIR__.'/../../../'.$class.'.php');
+    }
 }
 
 spl_autoload_register('dephendency');
