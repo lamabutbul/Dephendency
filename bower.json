@@ -1,0 +1,18 @@
+{
+  "name": "Dephendency",
+  "homepage": "https://github.com/lamabutbul/Dephendency",
+  "authors": [
+    "Moshe Abutbul <lamabutbul@gmail.com>"
+  ],
+  "description": "PHP on bower dependency manager.",
+  "main": "index.php",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
